@@ -115,8 +115,9 @@ function App() {
                   backgroundColor: "white",
                   borderRadius: "10px",
                   boxShadow: "0 8px 20px rgba(0,0,0,0.2)",
-                  minWidth: "220px",
-                  maxWidth: "98vw",
+                  minWidth: "180px",
+                  maxWidth: "70vw",
+                  padding: "5px 0",
                   zIndex: 2000,
                 }}
               >
@@ -207,7 +208,7 @@ function App() {
                 <Link
                   to="/ture"
                   style={{
-                    padding: "15px 30px",
+                    padding: "15px 20px",
                     backgroundColor: "#0099ff",
                     borderRadius: "10px",
                     color: "white",
@@ -295,7 +296,8 @@ function App() {
 
 const menuStyle = {
   display: "block",
-  padding: "15px 20px",
+  padding: "10px 15px",
+  fontSize: "14px",
   textDecoration: "none",
   color: "#111",
 };
