@@ -159,7 +159,6 @@ backgroundRepeat: "no-repeat",
                   alignItems: "center",
                   color: "white",
                   textAlign: "center",
-                  backgroundSize: "cover",
                 }}
               >
 <h1
