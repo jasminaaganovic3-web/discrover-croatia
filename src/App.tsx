@@ -16,7 +16,7 @@ function TourCard({ title, image }: { title: string; image: string }) {
         width: "300px",
         height: "400px",
         borderRadius: "20px",
-        backgroundImage: url(${image}),
+        backgroundImage: `url(${image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -172,7 +172,7 @@ function App() {
             <>
               <header
                 style={{
-                  backgroundImage: url(${DN1}),
+                  backgroundImage: `url(${DN1})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
