@@ -9,6 +9,7 @@ import dc2 from "./assets/dc2.jpeg";
 import dc3 from "./assets/dc3.jpeg";
 import dc4 from "./assets/dc4.jpeg";
 
+
 function TourCard({ title, image }: { title: string; image: string }) {
   return (
     <div
@@ -109,11 +110,13 @@ function App() {
                 style={{
                   position: "absolute",
                   top: "100%",
-                  right: 0,
+                  left: 0,
+                  right: "auto",
                   backgroundColor: "white",
                   borderRadius: "10px",
                   boxShadow: "0 8px 20px rgba(0,0,0,0.2)",
-                  minWidth: "250px",
+                  minWidth: "220px",
+                  maxWidth: "98vw",
                   zIndex: 2000,
                 }}
               >
