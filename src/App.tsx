@@ -36,8 +36,7 @@ function TourCard({ title, image }: { title: string; image: string }) {
 
 function App() {
   const [showToursMenu, setShowToursMenu] = useState(false);
-  const [showActivities, setShowActivities] = useState(false);
-
+ const [, setShowActivities] = useState(false);
 useEffect(() => {
   setTimeout(() => {
     setShowActivities(true);
