@@ -3,7 +3,7 @@ function Kontakt() {
     <div
       style={{
         paddingTop: "120px",
-        padding: "120px 50px",
+        padding: "120px 20px",
         backgroundColor: "#f8fafc",
         minHeight: "100vh",
       }}
@@ -11,7 +11,7 @@ function Kontakt() {
       <h1
         style={{
           textAlign: "center",
-          fontSize: "3rem",
+          fontSize: "clamp(2rem, 8vw, 3rem)",
           marginBottom: "50px",
         }}
       >
@@ -21,9 +21,11 @@ function Kontakt() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "50px",
+          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gap: "30px",
           alignItems: "start",
+          maxWidth: "1200px",
+          margin: "0 auto",
         }}
       >
         <div
@@ -45,7 +47,7 @@ function Kontakt() {
           <p>📞 +385 91 551 5687</p>
 
           <p style={{ marginTop: "20px" }}>
-            <strong>Email:</strong> info@discrover.com.hr
+            <strong>Email:</strong> info@discover.com.hr
           </p>
 
           <p>
@@ -65,7 +67,13 @@ function Kontakt() {
         >
           <h2>Pošaljite upit</h2>
 
-          <form style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
+          <form
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "15px",
+            }}
+          >
             <input
               type="text"
               placeholder="Ime i prezime"
@@ -73,6 +81,8 @@ function Kontakt() {
                 padding: "15px",
                 borderRadius: "10px",
                 border: "1px solid #ccc",
+                width: "100%",
+                boxSizing: "border-box",
               }}
             />
 
@@ -83,6 +93,8 @@ function Kontakt() {
                 padding: "15px",
                 borderRadius: "10px",
                 border: "1px solid #ccc",
+                width: "100%",
+                boxSizing: "border-box",
               }}
             />
 
@@ -93,6 +105,8 @@ function Kontakt() {
                 padding: "15px",
                 borderRadius: "10px",
                 border: "1px solid #ccc",
+                width: "100%",
+                boxSizing: "border-box",
               }}
             />
 
@@ -103,6 +117,8 @@ function Kontakt() {
                 padding: "15px",
                 borderRadius: "10px",
                 border: "1px solid #ccc",
+                width: "100%",
+                boxSizing: "border-box",
               }}
             />
 
