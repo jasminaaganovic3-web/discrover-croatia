@@ -71,7 +71,7 @@ function App() {
             fontWeight: "bold",
           }}
         >
-          Discover Croatia
+          Discrover Croatia
         </Link>
 
         <div
