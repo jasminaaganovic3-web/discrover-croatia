@@ -196,7 +196,7 @@ function App() {
                     marginBottom: "10px",
                   }}
                 >
-                  Discover Croatia
+                  Discrover Croatia
                 </h1>
 
                 <p>Kajakaške ture i avanture u Hrvatskoj i Crnoj Gori</p>
